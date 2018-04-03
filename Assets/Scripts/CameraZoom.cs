@@ -5,11 +5,11 @@ using UnityEngine;
 public class CameraZoom : MonoBehaviour {
 
     public Camera camera;
-    public float moveSpeed;
-    public float rotSpeed;
+    public float moveSpeed = 3;
+    public float rotSpeed = 3;
 
-    public float positionThreshold;
-    public float rotationThreshold;
+    public float positionThreshold = 0.0001f;
+    public float rotationThreshold = 0.001f;
 
     public GameObject zoomMarker;
 
