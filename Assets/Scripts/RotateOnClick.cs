@@ -51,7 +51,6 @@ public class RotateOnClick : MonoBehaviour {
                     if (hit.collider == child.GetComponent<Collider>()) {
 						StartCoroutine(rotator);
                         if (zoom != null) {
-                            Debug.Log("zooooom");
                             zoom.ZoomIn();
                         }
                     }

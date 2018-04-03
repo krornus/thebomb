@@ -16,6 +16,12 @@ ModelImporter:
     100016: Wire_006
     100018: Wire_007
     100020: Cube_001
+    100022: Base
+    100024: Board
+    100026: Capacitor
+    100028: Capacitor_001
+    100030: Chips
+    100032: Cover
     400000: Chip_000
     400002: //RootNode
     400004: CircuitBoard_001
@@ -27,6 +33,12 @@ ModelImporter:
     400016: Wire_006
     400018: Wire_007
     400020: Cube_001
+    400022: Base
+    400024: Board
+    400026: Capacitor
+    400028: Capacitor_001
+    400030: Chips
+    400032: Cover
     2300000: Chip_000
     2300002: CircuitBoard_001
     2300004: Cube
@@ -37,6 +49,12 @@ ModelImporter:
     2300014: Wire_006
     2300016: Wire_007
     2300018: Cube_001
+    2300020: Base
+    2300022: Board
+    2300024: Capacitor
+    2300026: Capacitor_001
+    2300028: Chips
+    2300030: Cover
     3300000: Chip_000
     3300002: CircuitBoard_001
     3300004: Cube
@@ -47,6 +65,12 @@ ModelImporter:
     3300014: Wire_006
     3300016: Wire_007
     3300018: Cube_001
+    3300020: Base
+    3300022: Board
+    3300024: Capacitor
+    3300026: Capacitor_001
+    3300028: Chips
+    3300030: Cover
     4300000: Chip_000
     4300002: CircuitBoard_001
     4300004: Cube
@@ -57,6 +81,12 @@ ModelImporter:
     4300014: Wire_006
     4300016: Wire_007
     4300018: Cube_001
+    4300020: Cover
+    4300022: Chips
+    4300024: Board
+    4300026: Base
+    4300028: Capacitor_001
+    4300030: Capacitor
     6400000: Chip_000
     6400002: CircuitBoard_001
     6400004: Cube
@@ -67,6 +97,12 @@ ModelImporter:
     6400014: Wire_005
     6400016: Wire_006
     6400018: Wire_007
+    6400020: Base
+    6400022: Board
+    6400024: Capacitor
+    6400026: Capacitor_001
+    6400028: Chips
+    6400030: Cover
     7400000: Default Take
     9500000: //RootNode
   materials:

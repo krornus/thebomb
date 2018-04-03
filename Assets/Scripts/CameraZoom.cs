@@ -20,7 +20,6 @@ public class CameraZoom : MonoBehaviour {
     private static Coroutine rRoutine;
 
     private IEnumerator Translate(Vector3 to) {
-        Debug.Log("Start translating");
 
         while (Vector3.Distance(camera.transform.position, to) > positionThreshold) {
 
@@ -32,14 +31,10 @@ public class CameraZoom : MonoBehaviour {
 
         camera.transform.position = to;
 
-        Debug.Log("Done translating");
-
         yield return null;
     }
 
     private IEnumerator Rotate(Vector3 to) {
-
-        Debug.Log("Start rotating");
 
         Quaternion target = Quaternion.Euler(to);
 
@@ -52,8 +47,6 @@ public class CameraZoom : MonoBehaviour {
 
         camera.transform.eulerAngles = to;
 
-        Debug.Log("Done rotating");
-
         yield return null;
     }
 
@@ -63,13 +56,11 @@ public class CameraZoom : MonoBehaviour {
         Vector3 rotationEnd = zoomMarker.transform.eulerAngles;
 
         if (tRoutine != null) {
-            Debug.Log("Stop translation early");
             StopCoroutine(tRoutine);
             tRoutine = null;
         }
 
         if (rRoutine != null) {
-            Debug.Log("Stop rotation early");
             StopCoroutine(rRoutine);
             rRoutine = null;
         }

@@ -1,22 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class ZoomOnClick : MonoBehaviour {
 
     public CameraZoom zoom;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     void OnMouseDown() {
+        Debug.Log(String.Format("Click on {0}", gameObject.name));
         zoom.ZoomIn();
     }
 }
