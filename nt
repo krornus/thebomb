@@ -1,0 +1,16 @@
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections;
+
+public class DisplayTimeOnText : MonoBehaviour
+{
+
+    private Text clockText;
+
+    void Update ()
+    {
+        System.DateTime time = System.DateTime.Now;
+
+        clockText = time.ToString("hh:mm");
+    }
+}
