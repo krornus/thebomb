@@ -10,8 +10,8 @@ public class RotateOnClick : MonoBehaviour {
     public int closedRotation;
     public int openRotation;
     public CameraZoom zoom;
-	public float speed;
-    public float threshold;
+	public float speed = 3f;
+    public float threshold = 0.0001f;
     public List<GameObject> children; 
     public Axis axis;
 
