@@ -107,6 +107,10 @@ ModelImporter:
     4300034: RHandleHolder
     4300036: Handle
     4300038: Case
+    6400000: Case
+    6400002: Handle
+    6400004: LHandleHolder
+    6400006: RHandleHolder
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -135,7 +139,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 1
